@@ -89,7 +89,7 @@ key- holds the ASCII value of the key pressed.
 void iKeyboard(unsigned char key)
 {
 	//for debugging purposes
-	if (key == 'q' || key == 'Q') {
+	if (key == '[') {
 		currentState = static_cast<gameState>(static_cast<int>(currentState)+1);
 	}
 	if (key == ']') {
@@ -205,7 +205,7 @@ int main(){
 	///srand((unsigned)time(NULL));
 
 	iSetTimer(1000, allTimers);
-	iInitialize(screenX, screenY, "BLOODREIGN");
+	iInitialize(screenX, screenY, "Project Title");
 	loadCutscene();
 	LoadL0();
 	LoadL1G1();

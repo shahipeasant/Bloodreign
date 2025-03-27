@@ -488,8 +488,8 @@ void DrawL3()
 	}
 	else if (win_3&& npc_3deathL3 >= 23){ // @Change
 		
-		iShowImage(0, 0, screenX, screenY, congrats);
-		//currentState = CONGRATS;
+		
+		currentState = AFTERL3;
 		return;
 	}
 

@@ -157,11 +157,11 @@ void cutSceneTransition(unsigned char key){
 		}
 
 	}
-	/*if (currentState == AFTERL3){
+	if (currentState == AFTERL3){
 		if (key == ' '){
 			currentState = CONGRATS;
 		}
-	}*/
+	}
 	
 }
 
